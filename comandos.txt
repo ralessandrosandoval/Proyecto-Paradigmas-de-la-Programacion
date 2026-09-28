@@ -1,0 +1,24 @@
+C++
+abrir MSYS2
+cd /c/Users/Windows/Downloads/paradigmas_run
+g++ -std=c++17 main.cpp -o sistema.exe
+./sistema.exe  o  sistema.exe
+
+abrir PowerShell
+cd "C:\Users\Windows\Downloads\paradigmas_run"
+dir
+& "C:\msys64\ucrt64\bin\g++.exe" -std=c++17 main.cpp -o sistema.exe
+.\sistema.exe
+
+Haskell
+en el PowerShell de VSCODE
+runHaskell Main.hs
+
+Prolog
+abrir PowerShell
+cd C:\Users\Windows\Downloads\paradigmas_run
+swipl recomendador.pl
+
+& "C:\Program Files\swipl\bin\swipl.exe" recomendador.pl
+
+
